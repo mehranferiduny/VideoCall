@@ -1,0 +1,21 @@
+{
+    "name": "videoCall",
+    "version": "1.0.0",
+    "description": "video call whit by socket.io",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [
+        "socket",
+        "video",
+        "call"
+    ],
+    "author": "Mehran",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "socket.io": "^4.6.1"
+    }
+}
